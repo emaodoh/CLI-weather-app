@@ -1,1 +1,1 @@
- export WEATHER_API_KEY="enter api key" 
+ export WEATHER_API_KEY="enter api key" # CLI-weather-app
