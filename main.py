@@ -7,7 +7,7 @@ import os
 API_KEY = os.getenv("WEATHER_API_KEY")
 
 if not API_KEY:
-    print("API-KEY not found.")
+    print("API-KEY not found.\n Usage: in terminal enter\n Export WEATHER_API_KEY=<paste your Api key>")
     sys.exit(1)
 
 def fetch(url):
